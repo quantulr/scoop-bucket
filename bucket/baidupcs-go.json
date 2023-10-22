@@ -1,0 +1,37 @@
+{
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-x64.zip",
+            "hash": "9e94f7c14ca795280d52966fcc9bf1920dc6967c6c7cacf0ce6c882834a7564a",
+            "bin": [
+                [
+                    "BaiduPCS-Go-v3.9.5-windows-x64\\BaiduPCS-Go.exe",
+                    "baidupcs"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-arm.zip",
+            "hash": "2b473e8ac6e6643bbae231611fa2c4e9bf44a50c82d50049f995a67b5b033d4c",
+            "bin": [
+                [
+                    "BaiduPCS-Go-v3.9.5-windows-arm\\BaiduPCS-Go.exe",
+                    "baidupcs"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-x86.zip",
+            "hash": "bceb62e9c946da28ab9cae3215563105ffca99f9f996a91ed155710e7969623f",
+            "bin": [
+                [
+                    "BaiduPCS-Go-v3.9.5-windows-x86\\BaiduPCS-Go.exe",
+                    "baidupcs"
+                ]
+            ]
+        }
+    },
+    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "version": "v3.9.5"
+}
