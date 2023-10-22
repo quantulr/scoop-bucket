@@ -1,5 +1,8 @@
 {
+    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
+    "version": "v3.9.5",
     "license": "Apache-2.0",
+    "description": "仿 Linux shell 文件处理命令的百度网盘命令行客户端.",
     "architecture": {
         "64bit": {
             "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.5/BaiduPCS-Go-v3.9.5-windows-x64.zip",
@@ -32,6 +35,18 @@
             ]
         }
     },
-    "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
-    "version": "v3.9.5"
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-arm.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-x86.zip"
+            }
+        }
+    }
 }
