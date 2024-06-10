@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/quantulr/finkyo/releases/download/v0.1.3/finkyo-windows-amd64.exe#/finkyo.exe",
-            "hash": "48fc9c5d42113b763f36f1fbd6829cfde55edfbfc4e8e304e299be6dab81add6"
+            "hash": "8f1e58d815783ad83b66479a771e67cbcb9e9c75ceb9c68cedc73c992c7906f3"
         }
     },
     "bin": "finkyo.exe",
