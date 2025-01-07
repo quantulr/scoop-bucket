@@ -1,12 +1,12 @@
 {
     "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
-    "version": "3.9.6",
+    "version": "3.9.7",
     "license": "Apache-2.0",
     "description": "仿 Linux shell 文件处理命令的百度网盘命令行客户端.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.6/BaiduPCS-Go-v3.9.6-windows-x64.zip",
-            "hash": "8f77048b90cc09b048a61069d200a39f178b1e69b185cd06e8b83875a31bb7e8",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x64.zip",
+            "hash": "2c8f4728ac29153f71187a26c85d5be0e2419a64d591a74f821d3c57622eeb81",
             "bin": [
                 [
                     "BaiduPCS-Go-v3.9.6-windows-x64\\BaiduPCS-Go.exe",
@@ -15,8 +15,8 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.6/BaiduPCS-Go-v3.9.6-windows-arm.zip",
-            "hash": "6d44d03a6f2e2746432e491328d60647fc4b517f0774c2785bddb443efc3aed0",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-arm.zip",
+            "hash": "b0ba4d9a8f29d02a2cbdf2da109293fcab733f6fab132e643bae90015029efb5",
             "bin": [
                 [
                     "BaiduPCS-Go-v3.9.6-windows-arm\\BaiduPCS-Go.exe",
@@ -25,8 +25,8 @@
             ]
         },
         "32bit": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.6/BaiduPCS-Go-v3.9.6-windows-x86.zip",
-            "hash": "e78ba1d5843a7d3756e74c3d84d1b7fc759d945849fb4e32481a85fe7a0c29f6",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v3.9.7/BaiduPCS-Go-v3.9.7-windows-x86.zip",
+            "hash": "d14c81aa4b035e4a458c52be8d23a0f593c025cf7b4d12df713c493566f4a86e",
             "bin": [
                 [
                     "BaiduPCS-Go-v3.9.6-windows-x86\\BaiduPCS-Go.exe",
