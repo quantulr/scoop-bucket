@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/seaweedfs/seaweedfs/releases/download/3.93/windows_amd64.zip",
-            "hash": "5623eb46687ddab0f657a185b566ff480252caa6529504775893c2ec22cc16d7"
+            "hash": "2cfe0e69a21ce01ce30520a77cc3da25828f656c0a76ae09e70474a8f2436490"
         }
     },
     "bin": "weed.exe",
