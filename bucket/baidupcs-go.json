@@ -15,11 +15,11 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-arm.zip",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-arm64.zip",
             "hash": "1ca4e68a791ac8efe185ba629cae687482a05bae4b7319d21098cecea7528be0",
             "bin": [
                 [
-                    "BaiduPCS-Go-v4.0.1-windows-arm\\BaiduPCS-Go.exe",
+                    "BaiduPCS-Go-v4.0.1-windows-arm64\\BaiduPCS-Go.exe",
                     "baidupcs"
                 ]
             ]
@@ -48,10 +48,10 @@
                 ]
             },
             "arm64": {
-                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-arm.zip",
+                "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v$version/BaiduPCS-Go-v$version-windows-arm64.zip",
                 "bin": [
                     [
-                        "BaiduPCS-Go-v$version-windows-arm\\BaiduPCS-Go.exe",
+                        "BaiduPCS-Go-v$version-windows-arm64\\BaiduPCS-Go.exe",
                         "baidupcs"
                     ]
                 ]
