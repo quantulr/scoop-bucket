@@ -1,35 +1,35 @@
 {
     "homepage": "https://github.com/qjfoidnh/BaiduPCS-Go",
-    "version": "4.0.1",
+    "version": "4.0.2",
     "license": "Apache-2.0",
     "description": "仿 Linux shell 文件处理命令的百度网盘命令行客户端.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-x64.zip",
-            "hash": "bb3bc2409e55820d681daef880a6949748fbc81d740952c2b2c05c28a075a4ee",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.2/BaiduPCS-Go-v4.0.2-windows-x64.zip",
+            "hash": "ce72b3155a710b7c4a2b15611c3aebd11a057d7cccf0529e7703bdde04f0aa30",
             "bin": [
                 [
-                    "BaiduPCS-Go-v4.0.1-windows-x64\\BaiduPCS-Go.exe",
+                    "BaiduPCS-Go-v4.0.2-windows-x64\\BaiduPCS-Go.exe",
                     "baidupcs"
                 ]
             ]
         },
         "arm64": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-arm64.zip",
-            "hash": "1ca4e68a791ac8efe185ba629cae687482a05bae4b7319d21098cecea7528be0",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.2/BaiduPCS-Go-v4.0.2-windows-arm64.zip",
+            "hash": "576f7a7ab6df05996089edf766793c6bd083f19dc109fd9cf2d29b70c943191d",
             "bin": [
                 [
-                    "BaiduPCS-Go-v4.0.1-windows-arm64\\BaiduPCS-Go.exe",
+                    "BaiduPCS-Go-v4.0.2-windows-arm64\\BaiduPCS-Go.exe",
                     "baidupcs"
                 ]
             ]
         },
         "32bit": {
-            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.1/BaiduPCS-Go-v4.0.1-windows-x86.zip",
-            "hash": "17f9a27d4a6144a062e4771dfa7c7efd206fa9b97cc91a465cc26f9e9a02db9f",
+            "url": "https://github.com/qjfoidnh/BaiduPCS-Go/releases/download/v4.0.2/BaiduPCS-Go-v4.0.2-windows-x86.zip",
+            "hash": "cd9eae3d3251a211382a199b0ad98855fe749a987558a6e7650bd7c536c9ee42",
             "bin": [
                 [
-                    "BaiduPCS-Go-v4.0.1-windows-x86\\BaiduPCS-Go.exe",
+                    "BaiduPCS-Go-v4.0.2-windows-x86\\BaiduPCS-Go.exe",
                     "baidupcs"
                 ]
             ]
