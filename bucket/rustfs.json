@@ -1,0 +1,35 @@
+{
+    "version": "1.0.3",
+    "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+    "homepage": "https://github.com/rustfs/rustfs",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/rustfs/rustfs/releases/download/1.0.3/rustfs-windows-x86_64-v1.0.3.zip",
+            "hash": "c72e573b8dbadd1b294d76b46a33ff296afde01a52c3c321da579e74edf5ed32"
+        }
+    },
+    "env_set": {
+        "RUSTFS_ACCESS_KEY": "",
+        "RUSTFS_SECRET_KEY": "",
+        "RUSTFS_VOLUMES": "$persist_dir\\volumes",
+        "RUSTFS_ADDRESS": ":9000",
+        "RUSTFS_CONSOLE_ADDRESS": ":9001",
+        "RUSTFS_CONSOLE_ENABLE": "true",
+        "RUSTFS_OBS_LOGGER_LEVEL": "error",
+        "RUSTFS_OBS_LOG_DIRECTORY": "$persist_dir\\logs"
+    },
+    "post_install": [
+        "New-Item -ItemType Directory -Path \"$persist_dir\\volumes\" -Force | Out-Null",
+        "New-Item -ItemType Directory -Path \"$persist_dir\\logs\" -Force | Out-Null"
+    ],
+    "bin": "rustfs.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/rustfs/rustfs/releases/download/$version/rustfs-windows-x86_64-v$version.zip"
+            }
+        }
+    }
+}
