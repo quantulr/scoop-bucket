@@ -13,7 +13,7 @@
     "env_set": {
         "RUSTFS_ACCESS_KEY": "<change_me>",
         "RUSTFS_SECRET_KEY": "<change_me>",
-        "RUSTFS_VOLUMES": "$persist_dir\\volumes",
+        "RUSTFS_VOLUMES": "$persist_dir\\data\\rustfs0",
         "RUSTFS_ADDRESS": ":9000",
         "RUSTFS_CONSOLE_ADDRESS": ":9001",
         "RUSTFS_CONSOLE_ENABLE": "true",
@@ -21,7 +21,7 @@
         "RUSTFS_OBS_LOG_DIRECTORY": "$persist_dir\\logs"
     },
     "post_install": [
-        "New-Item -ItemType Directory -Path \"$persist_dir\\volumes\" -Force | Out-Null",
+        "New-Item -ItemType Directory -Path \"$persist_dir\\data\\rustfs0\" -Force | Out-Null",
         "New-Item -ItemType Directory -Path \"$persist_dir\\logs\" -Force | Out-Null"
     ],
     "bin": "rustfs.exe",
