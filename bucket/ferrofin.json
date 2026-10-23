@@ -9,6 +9,14 @@
             "hash": "edbad69837b67d7d63a9739330b81deeb77ec8fde35c88dab36ac4727a4a91ea"
         }
     },
+    "env_set": {
+        "FERROFIN_DATA_DIR": "$persist_dir",
+        "FERROFIN_BIND_ADDR": "0.0.0.0",
+        "FERROFIN_PORT": "8096"
+    },
+    "post_install": [
+        "New-Item -ItemType Directory -Path \"$persist_dir\" -Force | Out-Null"
+    ],
     "bin": "ferrofin-server.exe",
     "checkver": "github",
     "autoupdate": {
