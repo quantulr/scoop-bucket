@@ -13,7 +13,12 @@
             "hash": "a7270a77f1a7f59697524b62fd16a556caf07f86996c66cc2f204147b42577c9"
         }
     },
-    "bin": "Tangentry.exe",
+    "shortcuts": [
+        [
+            "Tangentry.exe",
+            "Tangentry"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
